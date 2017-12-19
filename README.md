@@ -6,8 +6,8 @@
 
 ## Refrences
 
-- (PyCharm)[https://www.jetbrains.com/pycharm/]
+- [**PyCharm**](https://www.jetbrains.com/pycharm/)
 
-- (Pygame)[https://www.pygame.org/news]
+- [**Pygame**](https://www.pygame.org/news]
 
 
