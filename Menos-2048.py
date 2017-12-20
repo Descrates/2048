@@ -1,0 +1,76 @@
+import pygame
+import os
+pygame.init()
+all_fonts = pygame.font.get_fonts()
+clr = (0, 0, 0)
+beige = (145, 145, 120)
+bkg = (245, 245, 220)
+red = (200, 0, 0)
+size = (390, 390)
+screen = pygame.display.set_mode(size)
+screen.fill(bkg)
+pygame.display.update()
+font = pygame.font.Font(None, 100)
+
+y1 = [0, 0, 0, 0]
+y2 = [0, 0, 0, 0]
+y3 = [0, 0, 0, 0]
+y4 = [2, 2, 2, 2]
+sq1 = (70, 70)
+sq2 = (140,70 )
+sq3 = (210, 70)
+sq4 = (280, 70)
+sq5 = (70, 140)
+sq6 = (140, 140)
+sq7 = (210, 140)
+sq8 = (280, 140)
+sq9 = (70, 210)
+sq10 = (140, 210)
+sq11 = (210, 210)
+sq12 = (280, 210)
+sq13 = (70, 280)
+sq14 = (140, 280)
+sq15 = (210, 280)
+sq16 = (280, 280)
+play = 1
+
+
+
+while play == 1:
+    pygame.display.update()
+    if y4[0] == 2:
+        pygame.draw.circle(screen, red, sq13, 10)
+    text1 = font.render(str(y1[0]), True, clr)
+    screen.blit(text1, sq1)
+    text2 = font.render(str(y1[1]), True, clr)
+    screen.blit(text2, sq2)
+    text3 = font.render(str(y1[2]), True, clr)
+    screen.blit(text3, sq3)
+    text4 = font.render(str(y1[3]), True, clr)
+    screen.blit(text4, sq4)
+    text5 = font.render(str(y2[0]), True, clr)
+    screen.blit(text5, sq5)
+    text6 = font.render(str(y2[1]), True, clr)
+    screen.blit(text6, sq6)
+    text7 = font.render(str(y2[2]), True, clr)
+    screen.blit(text7, sq7)
+    text8 = font.render(str(y2[3]), True, clr)
+    screen.blit(text8, sq8)
+    text9 = font.render(str(y3[0]), True, clr)
+    screen.blit(text9, sq9)
+    text10 = font.render(str(y3[1]), True, clr)
+    screen.blit(text10, sq10)
+    text11 = font.render(str(y3[2]), True, clr)
+    screen.blit(text11, sq11)
+    text12 = font.render(str(y3[3]), True, clr)
+    screen.blit(text12, sq12)
+    text13 = font.render(str(y4[0]), True, clr)
+    screen.blit(text13, sq13)
+    text14 = font.render(str(y4[1]), True, clr)
+    screen.blit(text14, sq14)
+    text15 = font.render(str(y4[2]), True, clr)
+    screen.blit(text15, sq15)
+    text16 = font.render(str(y4[3]), True, clr)
+    screen.blit(text16, sq16)
+
+    pygame.display.update()
