@@ -10,4 +10,8 @@
 
 - [**Pygame**](https://www.pygame.org/news)
 
+## Developers
+
+Descrates and JuicyJ
+
 
